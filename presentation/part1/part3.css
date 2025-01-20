@@ -20,7 +20,6 @@
 /* محاذاة العمودية باستخدام Grid */
 .align-start {
     align-items: start; /* محاذاة العناصر إلى الأعلى */
-    align-content: center;
 }
 
 .align-center {
