@@ -1,0 +1,33 @@
+/* إعدادات الحاوية الرئيسية */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* ثلاث أعمدة متساوية العرض */
+    grid-auto-rows: minmax(100px, auto); /* صفوف بحد أدنى 100 بكسل */
+    gap: 10px; /* مسافة بين العناصر */
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* إعدادات العناصر داخل الشبكة */
+.item {
+    background-color: #b0e0e6;
+    padding: 10px;
+    display: flex; /* استخدام Flexbox لمحاذاة المحتوى داخل العناصر */
+    justify-content: center; /* محاذاة أفقية للوسط */
+}
+
+/* محاذاة العمودية باستخدام Grid */
+.align-start {
+    align-items: start; /* محاذاة العناصر إلى الأعلى */
+    align-content: center;
+}
+
+.align-center {
+    align-items: center; /* محاذاة العناصر في المنتصف */
+}
+
+.align-end {
+    align-items: end; /* محاذاة العناصر إلى الأسفل */
+}
+.align-stretch { align-items: stretch; /* تمدد العناصر لتملأ الارتفاع الكامل للخلية */ }
