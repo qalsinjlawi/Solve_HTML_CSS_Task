@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        form{
+            display: flex; 
+            flex-direction:column;
+             width: 300px;
+        }
+        #subBTN{
+            width: auto; align-self: flex-start; margin-top: 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2; /* Light gray for odd rows */
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome Yo Coding Intro</h1>
+    <div>
+        <h2>About Programming</h2>
+        <p>Programming is the process of creating a set of instructions that tell a computer how to perform a task. It enables us to build software, solve problems, and automate tasks efficiently.</p>
+    </div>
+    <div>
+        <h2>About JavaScript</h2>
+        <p>JavaScript is a dynamic, high-level programming language used to create interactive web content. It powers modern web applications with features like animations, form validation, and real-time updates.</p>
+    </div>
+    <div>
+        <h2>About React</h2>
+        <p>React is a popular JavaScript library for building user interfaces, primarily for single-page applications. It allows developers to create reusable components, making complex UIs easier to manage.</p>
+    </div>
+    <form >
+        <label for="first_name">First Name:</label>
+        <input type="text" value="Qotuibah" id="first_name">
+        <label for="last_name">First Name:</label>
+        <input type="text" value="Al-Sinjlawi" id="last_name">
+        <input type="submit" id="subBTN">
+    </form>
+
+    <h1>Programming Languages Information</h1>
+    <table  >
+        <tr>
+            <th>Programming Language</th>
+            <th>Full Name</th>
+            <th>Year Founded</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>HyperText Markup Language</td>
+            <td>1993</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>Cascading Style Sheets</td>
+            <td>1996</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>JavaScript</td>
+            <td>1995</td>
+        </tr>
+        <tr>
+            <td>PHP</td>
+            <td>PHP: Hypertext Preprocessor</td>
+            <td>1995</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
