@@ -4,3 +4,4 @@ ul li*5 a:لانشاء  عدد من التاقات معا ul>li*5>a{page $}
 .praimary: لانشاء class في div باسم praimary
 abbr :  لاضافه تعليق على الرابط عند التاشير عليه
 <a href="#down" id="up">down</a>     <a href="#up" id="down">Go UP</a> للتنقل بين اجزاء الصفحه 
+shift +allt = سهم لتحت او لفوق لاستنساخ النص واذا ضليت ساحب بنقله 

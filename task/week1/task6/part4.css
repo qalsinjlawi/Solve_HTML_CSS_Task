@@ -1,0 +1,9 @@
+.b1{
+    background-color: blue;
+}
+div{
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-image:url(../images/flowers.jfif) ;
+}

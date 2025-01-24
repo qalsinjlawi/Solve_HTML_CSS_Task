@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../prodac1/images/bmwix.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+}
+#headerlist{
+    
+    padding-left: 200px;
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    padding-top: 45px;
+    ;
+
+
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+    border: 2px solid #795632;
+    transition: 0.6s ease;
+    border-radius: 20px;
+    background-color:#574c41;
+    padding: 2px 4px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+ul li a:hover{
+    background-color: #795632;
+    color: white;
+    border: 2px solid #574c41;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+#proname{
+    
+    width: 200px;
+    float: left;
+    height: 70px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #574c41;
+    padding-left: 80px;
+    padding-top: 20px;
+    font-size:50px ;
+}
+#proname:hover{
+    color: #795632;
+}
+
+#hometitle{
+    font-size: 30px;
+    color: #574c41;
+    padding-top: 400px;
+    padding-left: 90px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.icon{
+    color: aqua;
+}
